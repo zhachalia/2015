@@ -1,0 +1,9 @@
+D:\Dev\授权\ActiveCode\bin\Debug\ActiveCode.exe.config
+D:\Dev\授权\ActiveCode\bin\Debug\ActiveCode.exe
+D:\Dev\授权\ActiveCode\bin\Debug\ActiveCode.pdb
+D:\Dev\授权\ActiveCode\obj\Debug\ActiveCode.Form1.resources
+D:\Dev\授权\ActiveCode\obj\Debug\ActiveCode.Properties.Resources.resources
+D:\Dev\授权\ActiveCode\obj\Debug\ActiveCode.csproj.GenerateResource.Cache
+D:\Dev\授权\ActiveCode\obj\Debug\ActiveCode.exe
+D:\Dev\授权\ActiveCode\obj\Debug\ActiveCode.pdb
+D:\Dev\授权\ActiveCode\obj\Debug\ActiveCode.csprojResolveAssemblyReference.cache

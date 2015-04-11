@@ -1,0 +1,164 @@
+2015/3/27 23:14:55:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"aa","user_org":"sss","reg_time":"\/Date(1427469294899+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469294899+0800)\/"}
+2015/3/27 23:15:42:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"222","user_org":"333333333","reg_time":"\/Date(1427469342428+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469342428+0800)\/"}
+2015/3/27 23:17:22:ERROR
+在转换为 UTC 时，大于 DateTime.MaxValue 或小于 DateTime.MinValue 的 DateTime 值无法序列化为 JSON。   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTimeInDefaultFormat(DateTime value)
+   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTime(DateTime value)
+   在 WriteResultModelToJson(XmlWriterDelegator , Object , XmlObjectSerializerWriteContextComplexJson , ClassDataContract , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.WriteJsonValueCore(XmlWriterDelegator jsonWriter, Object obj, XmlObjectSerializerWriteContextComplexJson context, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.XmlObjectSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(XmlDictionaryWriter writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(Stream stream, Object graph)
+   在 JSONHelper.stringify(Object jsonObject) 位置 d:\Dev\授权\ActiveServer\App_Code\Common\JSONHelper.cs:行号 33
+   在 BllUserInfo.GetResultJsonStr(ResultModel result) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 191
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 48
+2015/3/27 23:17:32:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"222","user_org":"333333333","reg_time":"\/Date(1427469452402+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469452402+0800)\/"}
+2015/3/27 23:19:01:ERROR
+在转换为 UTC 时，大于 DateTime.MaxValue 或小于 DateTime.MinValue 的 DateTime 值无法序列化为 JSON。   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTimeInDefaultFormat(DateTime value)
+   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTime(DateTime value)
+   在 WriteResultModelToJson(XmlWriterDelegator , Object , XmlObjectSerializerWriteContextComplexJson , ClassDataContract , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.WriteJsonValueCore(XmlWriterDelegator jsonWriter, Object obj, XmlObjectSerializerWriteContextComplexJson context, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.XmlObjectSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(XmlDictionaryWriter writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(Stream stream, Object graph)
+   在 JSONHelper.stringify(Object jsonObject) 位置 d:\Dev\授权\ActiveServer\App_Code\Common\JSONHelper.cs:行号 33
+   在 BllUserInfo.GetResultJsonStr(ResultModel result) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 191
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 48
+2015/3/27 23:19:56:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"222","user_org":"333333333","reg_time":"\/Date(1427469596089+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469596089+0800)\/"}
+2015/3/27 23:19:56:ERROR
+在转换为 UTC 时，大于 DateTime.MaxValue 或小于 DateTime.MinValue 的 DateTime 值无法序列化为 JSON。   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTimeInDefaultFormat(DateTime value)
+   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTime(DateTime value)
+   在 WriteResultModelToJson(XmlWriterDelegator , Object , XmlObjectSerializerWriteContextComplexJson , ClassDataContract , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.WriteJsonValueCore(XmlWriterDelegator jsonWriter, Object obj, XmlObjectSerializerWriteContextComplexJson context, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.XmlObjectSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(XmlDictionaryWriter writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(Stream stream, Object graph)
+   在 JSONHelper.stringify(Object jsonObject) 位置 d:\Dev\授权\ActiveServer\App_Code\Common\JSONHelper.cs:行号 33
+   在 BllUserInfo.GetResultJsonStr(ResultModel result) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 191
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 51
+2015/3/27 23:19:59:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"222","user_org":"333333333","reg_time":"\/Date(1427469599161+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469599161+0800)\/"}
+2015/3/27 23:19:59:ERROR
+在转换为 UTC 时，大于 DateTime.MaxValue 或小于 DateTime.MinValue 的 DateTime 值无法序列化为 JSON。   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTimeInDefaultFormat(DateTime value)
+   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTime(DateTime value)
+   在 WriteResultModelToJson(XmlWriterDelegator , Object , XmlObjectSerializerWriteContextComplexJson , ClassDataContract , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.WriteJsonValueCore(XmlWriterDelegator jsonWriter, Object obj, XmlObjectSerializerWriteContextComplexJson context, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.XmlObjectSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(XmlDictionaryWriter writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(Stream stream, Object graph)
+   在 JSONHelper.stringify(Object jsonObject) 位置 d:\Dev\授权\ActiveServer\App_Code\Common\JSONHelper.cs:行号 33
+   在 BllUserInfo.GetResultJsonStr(ResultModel result) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 191
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 51
+2015/3/27 23:20:21:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"222","user_org":"333333333","reg_time":"\/Date(1427469621649+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469621649+0800)\/"}
+2015/3/27 23:20:21:ERROR
+在转换为 UTC 时，大于 DateTime.MaxValue 或小于 DateTime.MinValue 的 DateTime 值无法序列化为 JSON。   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTimeInDefaultFormat(DateTime value)
+   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTime(DateTime value)
+   在 WriteResultModelToJson(XmlWriterDelegator , Object , XmlObjectSerializerWriteContextComplexJson , ClassDataContract , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.WriteJsonValueCore(XmlWriterDelegator jsonWriter, Object obj, XmlObjectSerializerWriteContextComplexJson context, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.XmlObjectSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(XmlDictionaryWriter writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(Stream stream, Object graph)
+   在 JSONHelper.stringify(Object jsonObject) 位置 d:\Dev\授权\ActiveServer\App_Code\Common\JSONHelper.cs:行号 33
+   在 BllUserInfo.GetResultJsonStr(ResultModel result) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 191
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 51
+2015/3/27 23:20:29:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"222","user_org":"333333333","reg_time":"\/Date(1427469629961+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469629961+0800)\/"}
+2015/3/27 23:20:37:ERROR
+在转换为 UTC 时，大于 DateTime.MaxValue 或小于 DateTime.MinValue 的 DateTime 值无法序列化为 JSON。   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTimeInDefaultFormat(DateTime value)
+   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTime(DateTime value)
+   在 WriteResultModelToJson(XmlWriterDelegator , Object , XmlObjectSerializerWriteContextComplexJson , ClassDataContract , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.WriteJsonValueCore(XmlWriterDelegator jsonWriter, Object obj, XmlObjectSerializerWriteContextComplexJson context, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.XmlObjectSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(XmlDictionaryWriter writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(Stream stream, Object graph)
+   在 JSONHelper.stringify(Object jsonObject) 位置 d:\Dev\授权\ActiveServer\App_Code\Common\JSONHelper.cs:行号 33
+   在 BllUserInfo.GetResultJsonStr(ResultModel result) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 191
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 51
+2015/3/27 23:21:05:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"222","user_org":"333333333","reg_time":"\/Date(1427469665416+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469665416+0800)\/"}
+2015/3/27 23:21:13:ERROR
+在转换为 UTC 时，大于 DateTime.MaxValue 或小于 DateTime.MinValue 的 DateTime 值无法序列化为 JSON。   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTimeInDefaultFormat(DateTime value)
+   在 System.Runtime.Serialization.Json.JsonWriterDelegator.WriteDateTime(DateTime value)
+   在 WriteResultModelToJson(XmlWriterDelegator , Object , XmlObjectSerializerWriteContextComplexJson , ClassDataContract , XmlDictionaryString[] )
+   在 System.Runtime.Serialization.Json.JsonClassDataContract.WriteJsonValueCore(XmlWriterDelegator jsonWriter, Object obj, XmlObjectSerializerWriteContextComplexJson context, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.XmlObjectSerializerWriteContextComplexJson.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph)
+   在 System.Runtime.Serialization.XmlObjectSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(XmlDictionaryWriter writer, Object graph)
+   在 System.Runtime.Serialization.Json.DataContractJsonSerializer.WriteObject(Stream stream, Object graph)
+   在 JSONHelper.stringify(Object jsonObject) 位置 d:\Dev\授权\ActiveServer\App_Code\Common\JSONHelper.cs:行号 33
+   在 BllUserInfo.GetResultJsonStr(ResultModel result) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 191
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 51
+2015/3/27 23:21:30:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"222","user_org":"333333333","reg_time":"\/Date(1427469690416+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469690416+0800)\/"}
+2015/3/27 23:24:33:::1;::1
+{"code_str":"AA-BB-22","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"AA","user_org":"SSSSSSSSSSSSS","reg_time":"\/Date(1427469872384+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469872384+0800)\/"}
+2015/3/27 23:24:40:::1;::1
+{"code_str":"AA-BB-33","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"AA","user_org":"SSSSSSSSSSSSS","reg_time":"\/Date(1427469880799+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427469880799+0800)\/"}
+2015/3/27 23:42:21:::1;::1
+{"code_str":"VYEEX-SBGHK-YM7DK-S6AFT-3MYHE","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"111","user_org":"2222","reg_time":"\/Date(1427470940992+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427470940992+0800)\/"}
+2015/3/27 23:42:34:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"111","user_org":"2222","reg_time":"\/Date(1427470954384+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427470954384+0800)\/"}
+2015/3/27 23:43:30:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"333","user_org":"44444444444444","reg_time":"\/Date(1427471010522+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471010524+0800)\/"}
+2015/3/27 23:53:44:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"arer","user_org":"werw","reg_time":"\/Date(1427471621009+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471621009+0800)\/"}
+2015/3/27 23:54:58:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"11","user_org":"111","reg_time":"\/Date(1427471698776+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471698777+0800)\/"}
+2015/3/27 23:55:42:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"ww","user_org":"ww","reg_time":"\/Date(1427471742411+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471742411+0800)\/"}
+2015/3/27 23:56:24:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"ww","user_org":"ww","reg_time":"\/Date(1427471784408+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471784408+0800)\/"}
+2015/3/27 23:56:45:ERROR
+Fatal error encountered during command execution.   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySqlHelper1.ExecuteNonQuery(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 d:\Dev\授权\ActiveServer\App_Code\MySqlHelper.cs:行号 37
+   在 MySqlHelper1.ExecuteNonQuery(String cmdText, MySqlParameter[] commandParameters) 位置 d:\Dev\授权\ActiveServer\App_Code\MySqlHelper.cs:行号 46
+   在 DAUserInfo.Insert(UserInfoModel userInfo) 位置 d:\Dev\授权\ActiveServer\App_Code\DA\DAUserInfo.cs:行号 61
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 53
+2015/3/27 23:57:45:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"ww","user_org":"ww","reg_time":"\/Date(1427471865344+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471865344+0800)\/"}
+2015/3/27 23:57:59:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"ww","user_org":"ww","reg_time":"\/Date(1427471879463+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471879463+0800)\/"}
+2015/3/27 23:58:41:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"ww","user_org":"ww","reg_time":"\/Date(1427471921431+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471921431+0800)\/"}
+2015/3/27 23:59:57:::1;::1
+{"code_str":"CJUSK-GDYMM-TTCS3-VFRVX-TVHNJ","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"ww","user_org":"ww","reg_time":"\/Date(1427471997942+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"},"ClientDate":"\/Date(1427471997942+0800)\/"}

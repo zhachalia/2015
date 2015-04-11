@@ -1,0 +1,33 @@
+﻿DROP DATABASE IF EXISTS `activeserver`;
+CREATE DATABASE `activeserver`
+DROP TABLE IF EXISTS `activeserver`.`t_code`;
+CREATE TABLE `activeserver`.`t_code` (
+  `code_str` varchar(50) NOT NULL,
+  `code_type` tinyint(2) NOT NULL,
+  `code_valid` int(1) DEFAULT NULL,
+  `code_date_len` int(11) DEFAULT NULL,
+  `code_date_start` date DEFAULT NULL,
+  `code_date_end` date DEFAULT NULL,
+  `code_desc` varchar(50) DEFAULT NULL,
+  `code_enable_computers` int(3) unsigned zerofill DEFAULT '000',
+  `code_used_computers` int(3) unsigned zerofill DEFAULT '000',
+  PRIMARY KEY (`code_str`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Table structure for t_userinfo
+-- ----------------------------
+DROP TABLE IF EXISTS `activeserver`.`t_userinfo`;
+CREATE TABLE `activeserver`.`t_userinfo` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `code_str` varchar(50) DEFAULT NULL,
+  `user_computer` varchar(200) DEFAULT NULL,
+  `user_name` varchar(100) DEFAULT NULL,
+  `user_org` varchar(100) DEFAULT NULL,
+  `reg_time` datetime DEFAULT NULL,
+  `reg_computer_ip` varchar(100) DEFAULT NULL,
+  `reg_computer_name` varchar(100) DEFAULT NULL,
+  `reg_state` int(1) NOT NULL,
+  `reg_desc` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

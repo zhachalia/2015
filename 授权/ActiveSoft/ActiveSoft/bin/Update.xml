@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpdCfg>
+  <Upgrade>
+    <VERSION>1.0</VERSION>
+    <UpdInfo>当前版本信息</UpdInfo>
+  </Upgrade>
+  <Upgrade>
+    <VERSION>2.0</VERSION>
+    <UpdInfo>最新版本信息</UpdInfo>
+  </Upgrade>
+</UpdCfg>

@@ -1,0 +1,47 @@
+2015/3/25 23:42:12:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427298131626+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}
+2015/3/25 23:42:57:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427298177945+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}
+2015/3/25 23:44:03:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427298239137+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}
+2015/3/25 23:46:40:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427298400632+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}
+2015/3/25 23:51:13:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427298666438+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}
+2015/3/25 23:51:25:ERROR
+Host 'zcl-pc' is not allowed to connect to this MySQL server   在 MySqlHelper1.GetDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 d:\Dev\授权\ActiveServer\App_Code\MySqlHelper.cs:行号 167
+   在 MySqlHelper1.GetDataTable(String cmdText, MySqlParameter[] commandParameters) 位置 d:\Dev\授权\ActiveServer\App_Code\MySqlHelper.cs:行号 183
+   在 DACodeStr.GetCodeStr(String codeStr) 位置 d:\Dev\授权\ActiveServer\App_Code\DA\DACodeStr.cs:行号 33
+   在 BllUserInfo.ValidCodeStr(UserInfoModel userInfo) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 81
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 25
+2015/3/25 23:52:24:ERROR
+Authentication to host '' for user '' using method 'mysql_native_password' failed with message: Access denied for user ''@'zcl-pc' (using password: NO)   在 MySqlHelper1.GetDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 d:\Dev\授权\ActiveServer\App_Code\MySqlHelper.cs:行号 167
+   在 MySqlHelper1.GetDataTable(String cmdText, MySqlParameter[] commandParameters) 位置 d:\Dev\授权\ActiveServer\App_Code\MySqlHelper.cs:行号 183
+   在 DACodeStr.GetCodeStr(String codeStr) 位置 d:\Dev\授权\ActiveServer\App_Code\DA\DACodeStr.cs:行号 33
+   在 BllUserInfo.ValidCodeStr(UserInfoModel userInfo) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 81
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 25
+2015/3/25 23:52:29:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427298749477+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}
+2015/3/25 23:53:03:ERROR
+Authentication to host '' for user '' using method 'mysql_native_password' failed with message: Access denied for user ''@'zcl-pc' (using password: NO)   在 MySqlHelper1.GetDataSet(String connectionString, CommandType cmdType, String cmdText, MySqlParameter[] commandParameters) 位置 d:\Dev\授权\ActiveServer\App_Code\MySqlHelper.cs:行号 167
+   在 MySqlHelper1.GetDataTable(String cmdText, MySqlParameter[] commandParameters) 位置 d:\Dev\授权\ActiveServer\App_Code\MySqlHelper.cs:行号 183
+   在 DACodeStr.GetCodeStr(String codeStr) 位置 d:\Dev\授权\ActiveServer\App_Code\DA\DACodeStr.cs:行号 33
+   在 BllUserInfo.ValidCodeStr(UserInfoModel userInfo) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 81
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 25
+2015/3/25 23:54:10:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427298850453+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}
+2015/3/25 23:55:05:ERROR
+输入字符串的格式不正确。   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 BllUserInfo.ValidCodeStr(UserInfoModel userInfo) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 85
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 25
+2015/3/25 23:55:11:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427298911515+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}
+2015/3/25 23:55:55:ERROR
+该字符串未被识别为有效的 DateTime。   在 System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   在 System.DateTime.Parse(String s)
+   在 BllUserInfo.ValidCodeStr(UserInfoModel userInfo) 位置 d:\Dev\授权\ActiveServer\App_Code\BLL\BllUserInfo.cs:行号 91
+   在 Active1.ProcessRequest(HttpContext context) 位置 d:\Dev\授权\ActiveServer\Active1.ashx:行号 25
+2015/3/25 23:57:26:::1;::1
+{"code_str":"AA-BB-11","user_computer":"BFEBFBFF000306A9$$ST500LT012-9WS142$$F4:B7:E2:77:46:2D$$NBM1011009327007532000$$NXM1FCN018327007522000","user_name":"12323","user_org":"234","reg_time":"\/Date(1427299045659+0800)\/","reg_computer_ip":"192.168.1.105","reg_computer_name":"ZCL-PC","reg_state":0,"reg_desc":"","computer_info_model":{"CpuID":"BFEBFBFF000306A9","MacAddress":"F4:B7:E2:77:46:2D","DiskID":"ST500LT012-9WS142","IpAddress":"192.168.1.105","LoginUserName":"zcl-pc\\zcl","ComputerName":"ZCL-PC","SystemType":null,"TotalPhysicalMemory":"4101267456","BaseBoardID":"NBM1011009327007532000","BIOSID":"NXM1FCN018327007522000"}}

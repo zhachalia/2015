@@ -1,0 +1,10 @@
+D:\Dev\授权\ActiveSoft\ActiveSoft\bin\Release\ActiveSoft.exe.config
+D:\Dev\授权\ActiveSoft\ActiveSoft\bin\Release\ActiveSoft.exe
+D:\Dev\授权\ActiveSoft\ActiveSoft\bin\Release\ActiveSoft.pdb
+D:\Dev\授权\ActiveSoft\ActiveSoft\obj\Release\ActiveClient.Forms.Form1.resources
+D:\Dev\授权\ActiveSoft\ActiveSoft\obj\Release\ActiveSoft.FormActive.resources
+D:\Dev\授权\ActiveSoft\ActiveSoft\obj\Release\ActiveSoft.Properties.Resources.resources
+D:\Dev\授权\ActiveSoft\ActiveSoft\obj\Release\ActiveSoft.csproj.GenerateResource.Cache
+D:\Dev\授权\ActiveSoft\ActiveSoft\obj\Release\ActiveSoft.exe
+D:\Dev\授权\ActiveSoft\ActiveSoft\obj\Release\ActiveSoft.pdb
+D:\Dev\授权\ActiveSoft\ActiveSoft\obj\Release\ActiveSoft.csprojResolveAssemblyReference.cache
